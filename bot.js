@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "+";
+const prefix = "9";
 /////////////////////////
 ////////////////////////
 
@@ -351,7 +351,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers`);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`ZomaTest`,"http://twitch.tv/Death Shop")
+client.user.setGame(`ZomaTest9`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
