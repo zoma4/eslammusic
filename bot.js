@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "+";
 /////////////////////////
 ////////////////////////
 
@@ -358,7 +358,7 @@ client.user.setStatus("dnd")
 client.login(process.env.BOT_TOKEN);
 client.on('ready',async () => {
 
-joinVoiceChannel( client.channels.get("اي دي الروم"), client.guilds.get("اي دي السيرفر") );
+joinVoiceChannel( client.channels.get("522952893964484628"), client.guilds.get("513392591480553474") );
 
 function joinVoiceChannel(channel, guild) {
 if(channel.type !== 'voice') return console.log(" # Error. - \"The channel type isn't a voice one\"");
